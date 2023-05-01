@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <script src="script.js" defer></script>
+    <title>F5 Bank</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="cabecalho">
+                <div class="logo"> <a href="#"><img id="img-logo" src="./media/logo/logo_principal2.png" alt=""></a>
+                </div>
+                <nav class="menu">
+                    <a id="inicio" href="#">ÍNICIO</a>
+                    <a id="cartao" href="#">CARTÃO</a>
+                    <a id="conta" href="#">CONTA DIGITAL</a>
+                    <a id="contato" href="#contatos">CONTATO</a>
+                    <a id="sobre" href="#">SOBRE</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="conteudo">
+                <div class="texto">
+                    <h2 id="titulo">VIVER SEM BUROCRACIA É VIVER COM O F5 BANK</h2><br>
+                    <p id="texto-site">Banco digital sem taxas e sem burocracia, faça tudo diretamente pelo seu
+                        computador, celular,
+                        tablet,
+                        em qualquer lugar do mundo!<br><br>
+                        Lorem ipsum dolor sit amet. At dolores labore sit consequatur debitis est.
+                    </p>
+
+                </div>
+
+                <div class="video">
+                    <video src="./media/video/F5 BANK.mp4" playsinline muted autoplay loop></video>
+                </div>
+            </div>
+            <div  class="contato"> <a name="contatos"></a>
+                
+                <img id="img_contato" src="./media/imagem/img_para_o_contato.jpeg" alt="mulher negra com celular">
+                <form class="formulario">
+                    <h3 id="span-contato"><span>Entre em contato conosco</span> </h3>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="text" name="numero" id="numero" placeholder="Digite seu número" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <button type="submit" name="botao" id="botao"  onclick="enviar(event)">Enviar</button>
+                </form>
+            </div>
+
+            <div class="sobre">
+                <h3 id="quem-somos">Quem somos?</h3>
+                <p>Lorem ipsum dolor sit amet. Et facere praesentium et magni possimus est exercitationem sint. Id rerum
+                    eaque sit harum sint qui dolore natus. Aut rerum itaque At voluptatem minus vel eius recusandae sit
+                    laboriosam quia sit sapiente voluptatem. Sit veniam dolores nam sunt harum cum quod omnis est odio
+                    ratione ut nobis dolores.</p>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="redes-sociais">
+                <a id="link-instagram" href="https://www.instagram.com/" target="_blank"> <img id="instagram" src="./media/imagem/instagra_logo.png" alt="logomarca do instagram">
+                    <p> Instagram</p>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank"><img id="facebook"  src="./media/imagem/Facebook_logo.png" alt="logomarca do facebook">
+                    <p> Facebook</p>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

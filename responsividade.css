@@ -1,0 +1,64 @@
+@media screen and (max-width:700px) {
+    body {
+        background-color: rgb(37, 38, 46);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .video {
+        /* display: none; */
+    }
+
+    .conteudo {
+        flex-direction: column;
+        width: 100vw;
+        font-size: 14px;
+    }
+
+    #titulo {
+        font-size: 20px;
+    }
+
+    .texto {
+        padding-bottom: 5px;
+        width: 100vw;
+
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    #img_contato {
+        width: 50vw;
+    }
+
+    .formulario {
+        padding-top: 20px;
+        padding-left: 0;
+        width: 50vw;
+    }
+
+    .sobre {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+
+
+}

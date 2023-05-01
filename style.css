@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1 /2;
+}
+
+
+main {
+    background-color:rgb(37, 38, 46);
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    padding-left: 10px;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 3 /4;
+}
+
+.container {
+    max-width: 1200px;
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 14vh 80vh 6vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+    height: 14vh;
+}
+
+#img-logo {
+    width: 704px;
+    height: 275px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: linear-gradient(90deg, rgba(13, 204, 240, 1) 0%, rgba(40, 253, 167, 1) 33%, rgba(133, 255, 198, 1) 59%, rgba(82, 111, 187, 1) 100%);
+    height: 14vh;
+    width: 70%;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.menu,
+a:hover {
+    color: #1509c7;
+}
+
+.conteudo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.texto {   
+    padding-right: 10px;
+    width: 50%;
+    height: 33vh;
+    max-width: 50%;
+}
+
+#titulo {
+    word-break: break-word;
+}
+
+#texto-site {
+    word-break: break-word;
+    line-height: 1.5;
+    text-align: justify;
+    width: 100%;
+    height: 100;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: #4E2FE4;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.video {
+    width: 50%;
+    height: 33vh;
+
+}
+
+video {
+    width: 100%;
+    height: 33vh;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    height: 36%;
+    width: 100%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 30px;
+    padding-left:190px;
+}
+
+input {
+    border: solid #463BDE;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+#botao {
+    background-color: #5347ff;
+    border: solid #463BDE;
+    border-radius: 15px;
+    margin-top: 3px;
+    padding: 4px;
+    cursor: pointer;
+    width: 45%;
+    height: 12%;
+    font-weight: bold;
+}
+
+#botao:hover {
+    background-color: #5347ff;
+    color: white;
+
+}
+
+#img_contato {
+    width: 28vw;
+    height: 100%;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#span-contato {
+    color: #4E2FE4;
+}
+
+
+.sobre,
+p {
+    line-height: 1.5;
+}
+
+#quem-somos{
+    padding-top: 20px;
+    color: #463BDE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+footer{
+display: flex;
+align-items: center;
+}
+
+
+.redes-sociais,a,p{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#link-instagram{
+    padding-right: 30px;
+}
+
+#instagram{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    
+}
+
+#facebook{
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+
+
